@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Menu xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="scheme.xsd">
+  <Sale name="Распродажа"/>
+  <Accessories name="Аксессуары">
+    <Balls>Мячи</Balls>
+    <Gaiters>Гетры</Gaiters>
+    <Guards>Щитки<Guards>
+    <Bags>Сумки</Bags>
+  </Accessories>
+  <Clubs name="">
+    <APL>Английская Премьер-лига</APL>
+    <Bundesliga>Бундеслига</Bundesliga>
+    <Laliga>Испанская Ла Лига</Laliga>
+    <Seria_A>Итальянская Серия А</Seria_A>
+  </Clubs>
+  <Form name="Форма">
+    <Adidas_form>Форма Adidas</Adidas_form>
+    <Nike_form>Форма Nike</Nike_form>
+  </Form>
+  <Goalkeeper name="Вратарь">
+    <Adidas_T-shirts>Майки Adidas</Adidas_T-shirts>
+    <Adidas_gloves>Перчатки Adidas</Adidas_gloves>
+    <Adidas_shorts>Шорты Adidas</Adidas_shorts>
+    <Nike_T-shirts>Майки Nike</Nike_T-shirts>
+    <Nike_gloves>Перчатки Nike</Nike_gloves>
+    <Nike_shorts>Шорты Nike</Nike_shorts>
+  </Goalkeeper>
+  <Prefabricated name="Сборные">
+    <Argentina>Аргентина</Argentina>
+    <Brazil>Бразилия</Brazil>
+    <Spain>Испания</Spain>
+    <England>Англия</England>
+    <Germany>Германия</Germany>
+    <France>Франция</France>
+    <Italy>Италия</Italy>
+    <Portugal>Португалия</Portugal>
+  </Prefabricated>
+  <Shoes name="Обувь">
+    <Adidas>Adidas</Adidas>
+    <Joma>Joma</Joma>
+    <Nike>Nike</Nike>
+    <Puma>Puma</Puma>
+  </Shoes>
+</Menu>

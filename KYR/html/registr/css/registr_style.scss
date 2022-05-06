@@ -1,0 +1,111 @@
+/* ---------- ГЛАВНОЕ ---------- */
+body {
+	background: linear-gradient(to right, pink, #30bdfe);
+	color: #606468;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+    #login {
+        margin: 150px auto;
+        width: 280px;
+        > p{
+            margin-top: 0;
+            text-align: center;
+        }
+        form{
+            h2{
+                padding-left: 9px;
+                margin-left: 2px;
+                text-align: center;
+                font-family: "Bauhaus";
+                font-size: 28px;
+                font-weight: 100;
+                color: #283593;
+            }
+            fieldset{
+                padding-bottom: 0;
+                border: none;
+                span {
+                    background-color: #363b41;
+                    border-radius: 3px 0px 0px 3px;
+                    color: #606468;
+                    display: flex;
+                    float: left;
+                    height: 50px;
+                    line-height: 50px;
+                    text-align: center;
+                    width: 50px;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        height: 66%;
+                        width: 66%;
+                    }
+                }
+            }
+        }
+        a {
+            color: #eee;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+input {
+	border: none;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	padding: 0;
+}
+
+p {
+	line-height: 1.5em; 
+}
+
+/* ---------- LOGIN ---------- */
+
+#login form input {
+	height: 50px;
+	outline:none;
+}
+
+#login form input[type="text"], input[type="password"] {
+	background-color: #3b4148;
+	border-radius: 0px 3px 3px 0px;
+	color: #606468;
+	margin-bottom: 1em;
+	padding: 0 16px;
+	width: 198px;
+}
+
+#login form input:focus {
+	color:#fff;
+}
+
+#login form input[type="button"] {
+	border-radius: 3px;
+	background-color: #7777ffd1;
+	color: #eee;
+	font-weight: bold;
+	margin-bottom: 2em;
+	text-transform: uppercase;
+	cursor:pointer;
+	width: 280px;
+}
+
+#login form input[type="button"]:hover {
+	background-color: #7777ff;
+}
+
+/* --------------------- */
+@font-face {
+  font-family: "Bauhaus";
+  src: url("../../../../KYR/font/BAUHS93.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
