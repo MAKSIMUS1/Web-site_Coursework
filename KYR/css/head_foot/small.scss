@@ -1,0 +1,125 @@
+/* ХЕДЕР ВЕРХНЯЯ ЧАСТЬ */
+.bg-blue{
+    display: flex;
+    height: 229px;
+    padding-top: 46px;
+    align-items: center;
+    .wrapper{
+        height: 100%;    
+        .header{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            @media screen and (min-width: 0px) and (max-width: 350px) {
+                .logo{
+                    text-align: center;
+                }
+            }
+            .zakaz_i_vhod{
+                width: 78px;
+                height: auto;
+                flex-direction: row;
+            }
+        }
+    }
+}
+
+/* ФУТЕР */
+.bl_footer{
+    .flex_footer{
+        .menu{
+            ul li a{
+                font-size: 12px;
+            }
+        }
+        .sbornuye{
+            h3{
+            font-size: 14px;
+            }
+            ul li a{
+            font-size: 12px;
+            }
+        }   
+        .contacts{
+            h3{
+                font-size: 14px;
+            }
+            ._cont{
+                font-size: 12px;
+            }
+            
+            .sozc_seti{
+                img{
+                    width: 32px;
+                }
+            }
+        
+        }   
+        .info{
+            font-size: 10px;
+        } 
+    }
+}
+.black_footer{
+    ._flex_dno{
+        img{
+            width: 40px;
+        }
+        p{
+            font-size: 16px;
+
+        }
+        .dinamo{
+            width: 74px;
+            height: 74px;
+        }
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 370px) {
+    .bl_footer{
+        .flex_footer{
+            .contacts{
+                .sozc_seti{
+                    img{
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 300px) {
+    .black_footer{
+        ._flex_dno{
+            img{
+                width: 30px;
+            }
+            p{
+                font-size: 14px;
+    
+            }
+            .dinamo{
+                width: 62px;
+                height: 62px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 385px) {
+    .bl_footer{
+        .flex_footer{
+            .menu{
+                ul li a{
+                    font-size: 10px;
+                }
+                li{
+                    margin-bottom: 3px;
+                }
+            }
+        }
+    }
+}
+/* --------------------- */
+
+

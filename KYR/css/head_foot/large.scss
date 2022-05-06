@@ -1,0 +1,81 @@
+/* ХЕДЕР ВЕРХНЯЯ ЧАСТЬ */
+.bg-blue{
+    display: flex;
+    height: 140px;
+    background-color: #03A9F4;
+    align-items: center;
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .zakaz_i_vhod{
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 986px) {
+    .bg-blue{
+        .wrapper{
+            .header{
+                .logo{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+/* --------------------- */
+
+/* ФУТЕР */
+.bl_footer{
+    .flex_footer{
+        .menu{
+            ul li a{
+                font-size: 22px;
+            }
+        }
+        .sbornuye{
+            h3{
+            font-size: 24px;
+            }
+            ul li a{
+            font-size: 22px;
+            }
+        }   
+        .contacts{
+            h3{
+                font-size: 24px;
+            }
+            ._cont{
+                font-size: 22px;
+            }
+            
+            .sozc_seti{
+                img{
+                    width: 52px;
+                }
+            }
+        
+        }   
+        .info{
+            font-size: 20px;
+        } 
+    }
+}
+.black_footer{
+    ._flex_dno{
+        img{
+            width: 60px;
+        }
+        p{
+            font-size: 16px;
+
+        }
+        .dinamo{
+            width: 74px;
+        }
+    }
+}
+/* --------------------- */

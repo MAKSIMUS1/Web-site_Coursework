@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* ХЕДЕР ВЕРХНЯЯ ЧАСТЬ */
+.bg-blue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 140px;
+  background-color: #03A9F4;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bg-blue .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bg-blue .header .zakaz_i_vhod {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 986px) {
+  .bg-blue .wrapper .header .logo {
+    text-align: center;
+  }
+}
+
+/* --------------------- */
+/* ФУТЕР */
+.bl_footer .flex_footer .menu ul li a {
+  font-size: 22px;
+}
+
+.bl_footer .flex_footer .sbornuye h3 {
+  font-size: 24px;
+}
+
+.bl_footer .flex_footer .sbornuye ul li a {
+  font-size: 22px;
+}
+
+.bl_footer .flex_footer .contacts h3 {
+  font-size: 24px;
+}
+
+.bl_footer .flex_footer .contacts ._cont {
+  font-size: 22px;
+}
+
+.bl_footer .flex_footer .contacts .sozc_seti img {
+  width: 52px;
+}
+
+.bl_footer .flex_footer .info {
+  font-size: 20px;
+}
+
+.black_footer ._flex_dno img {
+  width: 60px;
+}
+
+.black_footer ._flex_dno p {
+  font-size: 16px;
+}
+
+.black_footer ._flex_dno .dinamo {
+  width: 74px;
+}
+
+/* --------------------- */
+/*# sourceMappingURL=large.css.map */

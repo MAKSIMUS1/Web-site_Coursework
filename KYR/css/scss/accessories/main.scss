@@ -1,0 +1,271 @@
+.container_items{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+@media screen and (min-width: 0px) and (max-width: 980px){
+    aside{
+        display: none;
+    }
+}
+aside{
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    h2{
+        margin-top: 6px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        margin-bottom: 0;
+        font-size: 40px;
+        color : black;
+    }
+    ul{
+        padding-left: 0;
+        margin-top: 8px;
+        list-style-type: none;
+        li{
+            width: 50%;
+            a{
+                text-decoration: none;
+                
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                color : black;
+                &:hover{
+                    color: rgb(108, 108, 253);
+                }
+            }
+            ul{
+                padding-left: 20px;
+                margin-top: 0;
+                list-style-type: none;
+            }
+        }
+    }
+    ul.categories{
+        //Распродажа
+        //Аксесуары
+        li.accessories{
+            ul{
+                display: none;
+            }
+            &:hover{
+                ul{
+                    display: block;
+                }
+            }
+        }
+        //Обувь
+        li.shoes{
+            ul{
+                display: none;
+            }
+            &:hover{
+                ul{
+                    display: block;
+                }
+            }
+        }
+        //Форма 
+        li.form{
+            ul{
+                display: none;
+            }
+            &:hover{
+                ul{
+                    display: block;
+                }
+            }
+        }
+        //Вратарь
+        li.goalkeeper{
+            ul{
+                display: none;
+            }
+            &:hover{
+                ul{
+                    display: block;
+                }
+            }
+        }
+        //Клубы
+        li.clubs{
+            ul{
+                display: none;
+            }
+            &:hover{
+                ul{
+                    display: block;
+                }
+            }
+        }
+        //Сборные
+        li.prefabricated{
+            ul{
+                display: none;
+            }
+            &:hover{
+                ul{
+                    display: block;
+                }
+            }
+        }
+
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 500px){
+    .container_items{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .tovars_categories{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            margin: 0 auto;
+            .categories_item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                margin-bottom: 20px;
+                ._img{
+                    display: flex;
+                    align-items: center;
+                    width: 220px;
+                    height: 220px;
+                    background-color:#03A9F4;
+                    border-radius: 26px;
+                    a{
+                        margin: auto;
+                        img{
+                            width: 80%;
+                            transition: .3s ease-in-out;
+                            &:hover{
+                                transform: scale(1.05);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+@media screen and (min-width: 501px){
+.container_items{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .tovars_categories{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin:  auto;
+        justify-content: center;
+        align-items: center;
+        .categories_item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-basis: 50%;
+            text-align: center;
+            
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            margin-bottom: 20px;
+            ._img{
+                display: flex;
+                align-items: center;
+                width: 220px;
+                height: 220px;
+                background-color:#03A9F4;
+                border-radius: 26px;
+                a{
+                    margin: auto;
+                    img{
+                        width: 80%;
+                        transition: .3s ease-in-out;
+                        &:hover{
+                            transform: scale(1.05);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
+//Навигац
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 153, 255);
+    height: 50px;
+    .wrapper{
+        margin-left: 5%;
+        display: flex;
+        align-items: center;
+        a{
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+        i {
+            border: solid black;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            padding: 16px;
+            margin-right: 12px;
+        }
+        .right {
+            transform: rotate(-45deg);
+        }
+        a.accessories{
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+        }
+
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px){
+    nav{
+        .wrapper{
+            a{
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+            a.accessories{
+                font-size: 16px;
+            }
+    
+        }
+    }
+    
+}
+
+@font-face {
+    font-family: "Bauhaus"; 
+    src: url("../../font/BAUHS93.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+  

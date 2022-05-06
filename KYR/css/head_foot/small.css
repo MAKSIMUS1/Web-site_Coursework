@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* ХЕДЕР ВЕРХНЯЯ ЧАСТЬ */
+.bg-blue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 229px;
+  padding-top: 46px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bg-blue .wrapper {
+  height: 100%;
+}
+
+.bg-blue .wrapper .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 0px) and (max-width: 350px) {
+  .bg-blue .wrapper .header .logo {
+    text-align: center;
+  }
+}
+
+.bg-blue .wrapper .header .zakaz_i_vhod {
+  width: 78px;
+  height: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+/* ФУТЕР */
+.bl_footer .flex_footer .menu ul li a {
+  font-size: 12px;
+}
+
+.bl_footer .flex_footer .sbornuye h3 {
+  font-size: 14px;
+}
+
+.bl_footer .flex_footer .sbornuye ul li a {
+  font-size: 12px;
+}
+
+.bl_footer .flex_footer .contacts h3 {
+  font-size: 14px;
+}
+
+.bl_footer .flex_footer .contacts ._cont {
+  font-size: 12px;
+}
+
+.bl_footer .flex_footer .contacts .sozc_seti img {
+  width: 32px;
+}
+
+.bl_footer .flex_footer .info {
+  font-size: 10px;
+}
+
+.black_footer ._flex_dno img {
+  width: 40px;
+}
+
+.black_footer ._flex_dno p {
+  font-size: 16px;
+}
+
+.black_footer ._flex_dno .dinamo {
+  width: 74px;
+  height: 74px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 370px) {
+  .bl_footer .flex_footer .contacts .sozc_seti img {
+    width: 20px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 300px) {
+  .black_footer ._flex_dno img {
+    width: 30px;
+  }
+  .black_footer ._flex_dno p {
+    font-size: 14px;
+  }
+  .black_footer ._flex_dno .dinamo {
+    width: 62px;
+    height: 62px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 385px) {
+  .bl_footer .flex_footer .menu ul li a {
+    font-size: 10px;
+  }
+  .bl_footer .flex_footer .menu li {
+    margin-bottom: 3px;
+  }
+}
+
+/* --------------------- */
+/*# sourceMappingURL=small.css.map */

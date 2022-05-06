@@ -1,0 +1,405 @@
+.wrapper{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+}
+/* НЕЙМАР ФОРМА БУТСЫ  */
+.neymarwrap{
+    display:flex;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 500px;
+    justify-content: space-between;
+}
+.neymar{
+    flex-basis: 65%;
+    background-image: url(../../img/neymar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    
+    display: flex;  
+    justify-content: center;
+    align-items: flex-end;
+
+    
+    box-shadow: 2px 2px 10px 3px #151515;
+}
+.btn_neymar{
+    flex-basis: content;
+    color: black;
+
+    text-decoration: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+
+    border-radius: 100px;
+    border: 2px solid white;
+    background-color: white;
+    padding: 24px 30px;
+    margin-bottom: 40px;
+
+    transition: 0.2s ease;
+}
+
+.btn_neymar:hover{
+    background-color: #000000;
+    color:white;
+}
+.forma_i_boots{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    text-decoration: none;
+    justify-content: space-between;
+    .forma{
+        background-image: url(../../img/ronaldo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 40px;
+        height: 45%;
+        transition: 0.3s ease;
+
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 50px;
+        color: white;
+        padding-left: 20px;
+        padding-top: 20px;
+        &:hover{
+            background-image: url(../../img/ronaldo_dark.png);
+        }
+        box-shadow: 2px 2px 10px 2px #151515;
+    }
+    .boots{
+        background-image: url(../../img/boots.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 40px;
+        height: 45%;
+        transition: 0.3s ease;
+
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 50px;
+        color: white;
+        padding-left: 20px;
+        padding-top: 20px;
+        &:hover{
+            background-image: url(../../img/boots_dark.png);
+        }
+        box-shadow: 2px 2px 10px 2px #151515;
+    }
+}
+/* --------------------- */
+
+/* ЛИДЕРЫ ПРОДАЖ */
+.liders{
+    height: 780px;
+    padding-right: 0;
+    padding-left: 0;
+}
+.title-h2{
+    
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    padding-left: 90px;
+}
+.grid{
+    margin: 0 auto;
+    display: grid;
+    justify-items: center;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    //------------------------------------------------------- -->
+    .border {
+        min-height: 280px;
+        width: 150px;
+        margin: auto;
+        margin-bottom: 22px;
+        background: white;
+        padding: 14px;
+        border: 1px solid #F1E7E8;
+        &:hover{
+            border-color: #283593;
+        }
+        .wrap {
+           height: 100%;
+           position: relative;
+           .product-wrap {
+              position: relative;
+              &::after {
+                 content: '';
+                 background: #2834938b;
+                 position: absolute;
+                 left: 0;
+                 right: 0;
+                 bottom: 0;
+                 top: 0;
+                 opacity: 0;
+                 transform: scale(.3);
+                 transition: .3s ease-in-out;
+              }
+              a {
+                 display: block;
+                 text-decoration: none;
+              }
+              img {
+                 display: block;
+                 width: 100%;
+              }
+           }
+        }
+     }
+     .border:hover .product-wrap:after {
+        opacity: 1;
+        transform: scale(1);
+     }
+     .loop-action {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        opacity: 0;
+        transform: translate(-50%, -50%);
+        transition: .3s ease-in-out;
+        a{
+            text-decoration: none;
+            display: block;
+            border: 1px solid white;
+            white-space: nowrap;
+            text-transform: uppercase;
+            padding: .5em 1em;
+            font-size: 11px;
+            line-height: 1.6;
+            outline: none;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            color: white;
+            min-width: 100px;
+            margin: 5px auto;
+            margin-bottom: 50px;
+            transition: .3s ease-in-out;
+            &::after{
+                content: '';
+                position: absolute;
+                left: -220%;
+                top: -500%;
+                width: 140%;
+                height: 1000%;
+                transform: rotate(45deg);
+                background: white;
+                z-index: -1;
+                transition: .3s ease-in-out;
+            }
+            &:hover{
+                color: black;
+            }
+        }
+     }
+     .border:hover .loop-action {
+        opacity: 1;
+     }
+     .loop-action a:hover:after {
+        left: 0%;
+     }
+     .product-info {
+        padding-top: 15px;
+     }
+     .product-title {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        color: #1b2029;
+        font-size: 14px;
+     }
+     .price {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        color: #162546;
+        font-weight: 700;
+        font-size:  18px;
+     }
+    // ------------------------------------------------------- -->
+}
+/*--------------------------------*/
+
+/* БАННЕР РАСПРОДАЖА */
+.banner{
+    display: grid;
+    align-content: space-around;
+    align-content: space-between;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    
+	animation-name: slider_infinity;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+@keyframes slider_infinity {
+	0% {
+		background-image: url(../../../KYR/img/slider_inf/banner.png);
+	}
+	24%{
+		background-image: url(../../../KYR/img/slider_inf/banner.png);
+	}
+	33%{
+		background-image: url(../../../KYR/img/slider_inf/banner_2.png);
+	}
+	67%{
+		background-image: url(../../../KYR/img/slider_inf/banner_2.png);
+	}
+	75%{
+		background-image: url(../../../KYR/img/slider_inf/banner_3.png);
+	}
+	92%{
+		background-image: url(../../../KYR/img/slider_inf/banner_3.png);
+	}
+	100% {
+		background-image: url(../../../KYR/img/slider_inf/banner.png);
+	}
+}
+
+h1.title{
+    text-align: center;
+}
+.btn{
+    justify-self: center;
+    text-decoration: none;
+    width: 300px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+
+    border-radius: 100px;
+    border: 2px solid white;
+    background-color: white;
+    padding: 40px 65px;
+    margin-bottom: 100px;
+
+    transition: 0.2s ease;
+}
+.btn:hover{
+    background-color: #000000;
+    color:white;
+}
+/* --------------------- */
+
+/* ПОСЛЕДНИЕ ОТЗЫВЫ */
+.last_otz{
+    height: 270px;
+    width: 100%;
+    .otzyvy{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 70px;
+        padding-right: 70px;
+        .otzyv{
+            display: grid;
+            grid-template-columns: 1fr 1 fr;
+            border: 4px solid black;
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            flex-basis: 30%;
+        }
+        .name{
+            padding-left: 10px;
+            grid-row: 1/2;
+            grid-column: 1/2;
+            font-size: 30px;
+            margin-bottom: 0;
+            margin-top: 10px;
+        }
+        .data{
+            text-align: right;
+            grid-row: 1/2;
+            grid-column: 2/3;
+            padding-right: 10px;
+            font-size: 24px;
+            margin-bottom: 0;
+            margin-top: 10px;
+        }
+        .opisanie_otziv{
+            grid-row: 2/3;
+            grid-column: 1/3;
+            font-size: 18px;
+            margin-left: 10px;
+            margin-right: 5px;
+        }
+    }
+}
+
+/* --------------------- */
+
+/* НОВОСТИ */
+.news_wrap{
+    height: 380px;
+    .news{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 70px;
+        padding-right: 70px;    
+    }
+    a{
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        color: white;
+        padding: 0 10px 0 10px;
+    }
+    ._news{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+        flex-basis: 30%;
+        height: 260px;
+        .titul-news{
+            margin-bottom: 0;
+        }
+        .date{
+            margin-top: 0;
+            flex: 1 1 auto;
+
+        }
+
+    }
+    .new1{
+        background-image: url(../../img/jereb_dark.png);
+    }
+    .new2{
+        background-image: url(../../img/otkritoe_zimnee_pervenstvo_2021_2007god_dark.png);
+    }
+    .new3{
+        background-image: url(../../img/soccershoptv_kendish_dark.png);
+    }
+}
+/* --------------------- */
